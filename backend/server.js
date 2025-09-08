@@ -14,12 +14,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.static("../frontend"));
 
-// Servir frontend
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/../frontend/index.html");
 });
 
-// Ruta de contacto
 app.post("/contact", async (req, res) => {
   const { nombre, email, mensaje } = req.body;
 
