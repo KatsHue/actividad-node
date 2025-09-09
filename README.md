@@ -18,19 +18,18 @@ Página web de papelería creativa con formulario de contacto funcional, desarro
 ```bash
 git clone https://github.com/KatsHue/actividad-node.git
 cd actividad-node
-Instalar dependencias del backend
 
+2. Instalar dependencias del backend
 cd backend
 npm install
-Crear archivo .env dentro de backend/ con las siguientes variables:
 
+3. Crear archivo .env dentro de backend/ con las siguientes variables:
 PORT=5000
 SENDGRID_API_KEY=TU_API_KEY_DE_SENDGRID
 EMAIL_FROM=correo_verificado@tudominio.com
 EMAIL_TO=correo_receptor@tudominio.com
-Ejecutar el servidor
 
-bash
+4. Ejecutar el servidor
 npm start
 
 
