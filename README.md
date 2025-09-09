@@ -34,7 +34,7 @@ EMAIL_FROM=correo_verificado@tudominio.com
 EMAIL_TO=correo_receptor@tudominio.com
 ```
 
-5. Ejecutar el servidor
+4. Ejecutar el servidor
 ```bash
 npm start
 ```
