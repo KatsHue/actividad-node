@@ -14,24 +14,24 @@ Página web de papelería creativa con formulario de contacto funcional, desarro
 
 ## Cómo ejecutar localmente
 
-1. **Clonar el repositorio**
+1. Clonar el repositorio
 ```bash
 git clone https://github.com/KatsHue/actividad-node.git
 cd actividad-node
 
-2. **Instalar dependencias del backend**
+2. Instalar dependencias del backend
 
 cd backend
 npm install
 
+3. Crear archivo .env dentro de backend/ con las siguientes variables:
 
--Crear archivo .env dentro de backend/ con las variables:
-  PORT=5000
-  SENDGRID_API_KEY=TU_API_KEY_DE_SENDGRID
-  EMAIL_FROM=correo_verificado@tudominio.com
-  EMAIL_TO=correo_receptor@tudominio.com
+PORT=5000
+SENDGRID_API_KEY=TU_API_KEY_DE_SENDGRID
+EMAIL_FROM=correo_verificado@tudominio.com
+EMAIL_TO=correo_receptor@tudominio.com
   
--Ejecutar el servidor:
+4. Ejecutar el servidor:
   npm start
 
 ## Capturas
