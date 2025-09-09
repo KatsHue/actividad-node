@@ -20,19 +20,20 @@ git clone https://github.com/KatsHue/actividad-node.git
 cd actividad-node
 
 2. Instalar dependencias del backend
-
+```bash
 cd backend
 npm install
 
 3. Crear archivo .env dentro de backend/ con las siguientes variables:
-
+```bash
 PORT=5000
 SENDGRID_API_KEY=TU_API_KEY_DE_SENDGRID
 EMAIL_FROM=correo_verificado@tudominio.com
 EMAIL_TO=correo_receptor@tudominio.com
   
 4. Ejecutar el servidor:
-  npm start
+```bash
+npm start
 
 ## Capturas
 
