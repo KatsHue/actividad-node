@@ -8,7 +8,8 @@ body {
 
 .hero h1,
 h2,
-.card-title {
+.card-title,
+.modal-title {
   font-family: "Playfair Display", serif;
 }
 
@@ -113,6 +114,19 @@ footer {
   object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+}
+
+.btn-close-sc {
+  background-color: #ff6f91;
+  color: white;
+  border: none;
+}
+
+.btn-close-sc:hover {
+  background-color: #ff9a9e;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .btn-enviar {

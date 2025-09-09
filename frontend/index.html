@@ -43,6 +43,9 @@
               <a class="nav-link" href="#productos">Productos</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#tips">Tips</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
@@ -74,7 +77,13 @@
                 Cuadernos con diseños únicos para inspirar tu creatividad cada
                 día.
               </p>
-              <a href="#" class="btn btn-primary">Ver más</a>
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal1"
+                >Ver más</a
+              >
             </div>
           </div>
         </div>
@@ -90,7 +99,13 @@
               <p class="card-text">
                 Colores y estilos para darle vida a tus ideas y proyectos.
               </p>
-              <a href="#" class="btn btn-primary">Ver más</a>
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal2"
+                >Ver más</a
+              >
             </div>
           </div>
         </div>
@@ -107,15 +122,133 @@
                 Agrega un toque personal y divertido a tus cuadernos y
                 proyectos.
               </p>
-              <a href="#" class="btn btn-primary">Ver más</a>
+              <a
+                href="#"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal3"
+                >Ver más</a
+              >
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Modales -->
+    <!-- Modal Producto 1 -->
+    <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Cuadernos Creativos</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Estos cuadernos tienen hojas de alta calidad y portadas con
+              diseños exclusivos. Puedes combinarlos con stickers y accesorios
+              para personalizarlos.
+            </p>
+            <img
+              src="assets/images/notebooks.webp"
+              class="img-fluid"
+              alt="Cuadernos Creativos"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-close-sc"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Producto 2 -->
+    <div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Plumas y Marcadores</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Colores vibrantes y diferentes estilos de plumas y marcadores para
+              darle vida a tus ideas y proyectos. Perfectos para notas, dibujos
+              o lettering.
+            </p>
+            <img
+              src="assets/images/pencils.webp"
+              class="img-fluid"
+              alt="Plumas y Marcadores"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-close-sc"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Producto 3 -->
+    <div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Stickers y Decoración</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Stickers divertidos y elementos decorativos para darle tu toque
+              personal a cuadernos, agendas y proyectos creativos. Perfectos
+              para inspirarte cada día.
+            </p>
+            <img
+              src="assets/images/stickers2.webp"
+              class="img-fluid"
+              alt="Stickers y Decoración"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-close-sc"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Inspiración Creativa -->
-    <section class="container my-5" id="inspiracion">
+    <section class="container my-5" id="tips">
       <h2 class="text-center mb-4">Inspiración Creativa</h2>
       <p class="text-center mb-5">
         Descubre ideas y tips para llevar tu creatividad al siguiente nivel.
@@ -225,13 +358,6 @@
         <a href="#"><i class="fab fa-twitter"></i></a>
       </div>
     </footer>
-
-    <form id="contact-form">
-      <input type="text" name="nombre" placeholder="Nombre" required />
-      <input type="email" name="email" placeholder="Email" required />
-      <textarea name="mensaje" placeholder="Mensaje" required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
 
     <script>
       const form = document.getElementById("contact-form");
