@@ -26,7 +26,7 @@ cd backend
 npm install
 ```
 
-3. Crear archivo .env dentro de backend/ con las siguientes variables:
+3. Crear archivo .env dentro de la carpeta backend con las siguientes variables:
 ```bash
 PORT=5000
 SENDGRID_API_KEY=TU_API_KEY_DE_SENDGRID
