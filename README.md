@@ -15,9 +15,9 @@ Página web de papelería creativa con formulario de contacto funcional, desarro
 ## Cómo ejecutar localmente
 
 1. Clonar el repositorio:
--git clone https://github.com/tuUsuario/mi-proyecto.git
--cd backend
--Instalar dependencias del backend:
+- git clone https://github.com/KatsHue/actividad-node.git
+- cd backend
+- Instalar dependencias del backend:
   cd backend
   npm install
 
