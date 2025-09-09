@@ -43,9 +43,12 @@ npm start
 
 ## Capturas
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4db45a0c-7b73-402a-a44e-d9bd0278c83a" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ad2b583f-4b8b-4c63-834f-c81e93738b5c" />
-<img width="535" height="370" alt="image" src="https://github.com/user-attachments/assets/c0c7cd09-5571-4be2-b408-7bd108ca4406" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ff4cff3f-ebb3-41e9-849a-95287a6ea25b" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a0475d8d-7984-4a75-970e-d89e24f88729" />
+<img width="484" height="337" alt="image" src="https://github.com/user-attachments/assets/a37c225c-07cd-4bc4-baab-e6576811ddb5" />
+
+
+
 
 
 
