@@ -4,7 +4,6 @@
 
 Página web de papelería creativa con formulario de contacto funcional, desarrollada con **Bootstrap** en el frontend y **Node.js + SendGrid** en el backend.  <br><br> Clase: <strong>Programación para Internet 2025B<strong>
 
-<a href="https://katshue.github.io/adivina-el-numero/" target="_blank"><strong>🎯 Demo </strong></a>
 
 </div>
 
