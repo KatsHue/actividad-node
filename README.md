@@ -19,10 +19,11 @@ Página web de papelería creativa con formulario de contacto funcional, desarro
 git clone https://github.com/KatsHue/actividad-node.git
 cd actividad-node
 
-- 
-- Instalar dependencias del backend:
-  cd backend
-  npm install
+2. **Instalar dependencias del backend**
+
+cd backend
+npm install
+
 
 -Crear archivo .env dentro de backend/ con las variables:
   PORT=5000
